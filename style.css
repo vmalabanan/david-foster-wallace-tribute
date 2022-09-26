@@ -117,6 +117,10 @@ img {
 /************************************/
 /* ARTICLE */
 /************************************/
+.article {
+  margin-bottom: 32rem;
+}
+
 .article h2,
 .article-paragraphs {
   display: flex;
@@ -150,7 +154,7 @@ img {
   margin: 0 50rem 0 50rem;
 }
 
-.article-paragraphs-container p {
+.article-paragraphs-1 {
   margin-bottom: 3.5rem;
 }
 
