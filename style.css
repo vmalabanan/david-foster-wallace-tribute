@@ -84,6 +84,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 22.5rem;
 }
 
 img {
@@ -114,10 +115,128 @@ img {
 }
 
 /************************************/
+/* ARTICLE */
+/************************************/
+.article h2,
+.article-paragraphs {
+  display: flex;
+  justify-content: center;
+}
+
+.article h2 {
+  font-family: "PT Serif", serif;
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
+
+.article-title {
+  margin-bottom: 11.5rem;
+}
+
+.article-title-1 {
+  margin-bottom: 0.75rem;
+}
+
+.article p {
+  font-weight: 400;
+  font-size: 2.1rem;
+  letter-spacing: 0.075em;
+  line-height: 1.5;
+}
+
+.article-paragraphs-container {
+  margin: 0 50rem 0 50rem;
+}
+
+.article-paragraphs-container p {
+  margin-bottom: 3.5rem;
+}
+
+/************************************/
+/* INTERVIEW */
+/************************************/
+
+.interview {
+  margin-bottom: 38rem;
+}
+
+.interview h2,
+.youtube-container,
+.youtube-blurb-container {
+  display: flex;
+  justify-content: center;
+}
+
+.youtube-blurb-container {
+  margin: 0 55rem 0 55rem;
+  text-align: center;
+}
+
+iframe {
+  width: 60vw;
+  height: 34vw;
+}
+
+.youtube-container {
+  margin-bottom: 3rem;
+  letter-spacing: 0.054em;
+}
+
+.youtube-blurb-container {
+  font-size: 2.1rem;
+}
+/************************************/
+/* QUOTE */
+/************************************/
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 42rem 36.5rem 42rem;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+}
+
+#image-2 {
+  max-width: 20vw;
+  margin-right: 10rem;
+}
+
+blockquote {
+  font-size: 2.5rem;
+  letter-spacing: 0.01em;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+}
+
+.quote-author {
+  font-weight: 700;
+}
+
+/************************************/
 /* WIKIPEDIA BLURB */
 /************************************/
 .wikipedia-blurb {
   margin-bottom: 10rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 2.3rem;
+  letter-spacing: 0.057em;
+  line-height: 1.09;
+  display: flex;
+  justify-content: center;
+}
+
+.wikipedia-blurb a:link,
+.wikipedia-blurb a:visited {
+  color: #202020;
+  text-decoration: underline;
+}
+
+.wikipedia-blurb a:hover {
+  text-decoration: underline;
 }
 
 /************************************/
@@ -175,4 +294,8 @@ footer a:hover {
 
 .footer-bottom-left-first {
   margin-right: 3rem;
+}
+
+.footer-bottom-right {
+  text-transform: uppercase;
 }
