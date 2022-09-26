@@ -14,7 +14,7 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: #f0efe9;
+  background-color: #faf3ee;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.5;
@@ -73,7 +73,7 @@ input {
 }
 
 .nav-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /************************************/
@@ -111,4 +111,68 @@ img {
   font-weight: 300;
   letter-spacing: 0.147em;
   text-transform: uppercase;
+}
+
+/************************************/
+/* WIKIPEDIA BLURB */
+/************************************/
+.wikipedia-blurb {
+  margin-bottom: 10rem;
+}
+
+/************************************/
+/* FOOTER */
+/************************************/
+footer {
+  background-color: #fff;
+  padding: 5.5rem 30rem 8.5rem 30rem;
+  font-size: 1.35rem;
+}
+
+.site-name-footer {
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  margin-bottom: 3.5rem;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  margin-bottom: 1rem;
+}
+
+.footer-columns {
+  display: flex;
+  margin-bottom: 6rem;
+}
+
+footer a:link,
+footer a:visited {
+  color: #202020;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+.footer-col-1,
+.footer-col-2 {
+  margin-right: 16rem;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom-left {
+  display: flex;
+}
+
+.footer-bottom-left-first {
+  margin-right: 3rem;
 }
