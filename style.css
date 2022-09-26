@@ -1,0 +1,114 @@
+/************************************/
+/* GENERAL */
+/************************************/
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #f0efe9;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #202020;
+  font-family: "Raleway", sans-serif;
+}
+
+/************************************/
+/* NAV */
+/************************************/
+.nav-list {
+  margin: 3.5rem 9rem 11rem 9rem;
+  list-style: none;
+  font-size: 2.1rem;
+  font-weight: 300;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+  height: 3rem;
+  padding: 1.25rem;
+  font-family: "Raleway", sans-serif;
+  color: #202020;
+  font-size: 2.1rem;
+  font-weight: 300;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.site-name {
+  font-family: "PT Serif", serif;
+  font-size: 6rem;
+  letter-spacing: 0.01em;
+}
+.site-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-link-first {
+  margin-right: 7rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #202020;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/************************************/
+/* HERO */
+/************************************/
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  max-width: 40vw;
+  margin: 0 auto;
+}
+
+.hero-text {
+  margin-left: 3rem;
+}
+
+#title {
+  font-family: "PT Serif", serif;
+  font-size: 10.3rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1.06;
+  margin-bottom: 2.5rem;
+}
+
+.subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 300;
+  letter-spacing: 0.147em;
+  text-transform: uppercase;
+}
