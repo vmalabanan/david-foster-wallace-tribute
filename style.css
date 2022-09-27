@@ -97,6 +97,10 @@ img {
   margin-left: 3rem;
 }
 
+figcaption {
+  display: none;
+}
+
 #title {
   font-family: "PT Serif", serif;
   font-size: 10.3rem;
